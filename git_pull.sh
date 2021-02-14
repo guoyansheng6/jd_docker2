@@ -30,10 +30,10 @@ WhichDep=$(grep "/jd_docker2" "${ShellDir}/.git/config")
 
 if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-  ShellURL=https://github.com/kangwenhang/jd_docker2
+  ShellURL=https://github.com/guoyansheng6/jd_docker2
 else
   ScriptsURL=https://gitee.com/lxk0301/jd_scripts
-  ShellURL=https://github.com/kangwenhang/jd_docker2
+  ShellURL=https://github.com/guoyansheng6/jd_docker2
 fi
 
 ## 更新shell脚本1
